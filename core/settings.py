@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-%-dom#fbov@2=9qw&&oj-l0twk(zlek#zs1xz#nb6o_pu4mpyx
 
 DEBUG = True # Set to False in production
 
-ALLOWED_HOSTS = [] # Add your domain names here in production
+ALLOWED_HOSTS = [https://aiagentbyfilip.pythonanywhere.com, https://glimmr-beige.vercel.app] # Add your domain names here in production
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -86,7 +86,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS Configuration
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000", # React development server
+    "https://glimmr-beige.vercel.app", # React development server
     # Add your production frontend URL here later
 ]
 # CORS_ALLOW_ALL_ORIGINS = True # Less secure, only for quick local testing if needed
