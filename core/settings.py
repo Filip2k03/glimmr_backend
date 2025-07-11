@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-%-dom#fbov@2=9qw&&oj-l0twk(zlek#zs1xz#nb6o_pu4mpyx
 
 DEBUG = True # Set to False in production
 
-ALLOWED_HOSTS = [aiagentbyfilip.pythonanywhere.com, glimmr-beige.vercel.app] # Add your domain names here in production
+ALLOWED_HOSTS = ['aiagentbyfilip.pythonanywhere.com', 'glimmr-beige.vercel.app'] # Add your domain names here in production
 
 INSTALLED_APPS = [
     'django.contrib.admin',
